@@ -56,6 +56,9 @@
   font-family: "Open Sans", sans-serif;
   box-shadow: 0px 4px 6px rgb(0, 37, 46, 0.5);
 }
+main{
+  margin-bottom: 120px;
+}
 .intro-container{
   position: relative;
   width: 100%;
@@ -117,6 +120,9 @@
   justify-content: center;
   align-items: center;
 }
+.space--section{
+  margin-top: 25px;
+}
 .article__title{
   width: 100%;
   display: flex;
@@ -144,4 +150,98 @@
   padding: 40px;
   width: 100%;
   min-width: 370px;
+}
+footer{
+  position: relative;
+  margin-top: 200px;
+  background-color: var(--very-Dark-Cyan);
+  color: white;
+}
+.flowing-section-container{
+  position: absolute;
+  top: -80px;
+  margin: 0 auto;
+  border-radius: 14px;
+  width: 50%;
+  height: auto;
+  color: black;
+  background-color: #fff;
+  border: 1px solid rgb(128, 141, 153, 0.1);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.flowing-section-container h2{
+  margin:20px auto;
+  font-family: "Open Sans", sans-serif;
+  color: var(--very-Dark-Cyan);
+}
+.flowing-section-container a{
+  position: relative;
+  margin: 20px auto;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  background: var(--primary-pink);
+}
+.footer-container-section{
+  height: 50vh;
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo{
+  margin-bottom: 30px;
+}
+.footer-img{
+  display:flex;
+  margin-top: 20px;
+
+}
+.footer-img img{
+  width: 20px;
+  height: 20px;;
+}
+.footer-container-section .footer-img--location p{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.col{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.col ul li{
+  margin-top: 30px;
+}
+.col ul li a{
+  color: var(--grayish-Blue);
+}
+.social a{
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+.copyright, .attribution{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.icons{
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
 }
